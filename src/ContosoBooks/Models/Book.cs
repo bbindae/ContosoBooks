@@ -9,7 +9,7 @@ namespace ContosoBooks.Models
     public class Book
     {
         [ScaffoldColumn(false)]
-        public int BookID { get; set; }
+        public int BookID { get; set;           }
 
         [Required]
         public string Title { get; set; }
